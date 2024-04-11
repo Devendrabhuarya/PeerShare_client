@@ -16,7 +16,7 @@ import { googleLogout, useGoogleLogin } from '@react-oauth/google';
 
 export default function LoginPage() {
     const router = useRouter();
-    const googleButton = useRef<>();
+    const googleButton = useRef();
     const { Loader, setLoader } = useContext(LoaderContext);
     const { setUser, user } = useContext(UserDataContext);
     const [googleUser, setGoogleUser] = useState<string | null>(null);
