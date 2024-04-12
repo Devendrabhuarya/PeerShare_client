@@ -172,7 +172,7 @@ export default function LoginPage() {
                 <div className="line w-full h-1 z-0 bg-secendary mt-10 flex justify-center ">
                     <span className='relative z-40 bottom-4  flex justify-center items-center m-auto  px-5 py-1 rounded-full bg-primary font-primary '>or</span>
                 </div>
-                <div className="sign-in-other-option mt-8 " ref={googleButton}>
+                <div className="sign-in-other-option mt-8 ">
                     <GoogleIcon
                         className='text-4xl cursor-pointer'
                         onClick={onLogin}
