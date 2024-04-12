@@ -175,7 +175,7 @@ export default function LoginPage() {
                 <div className="sign-in-other-option mt-8 ">
                     <GoogleIcon
                         className='text-4xl cursor-pointer'
-                        onClick={onLogin}
+                       onClick={() => onLogin()}
                     />
                 </div>
 
