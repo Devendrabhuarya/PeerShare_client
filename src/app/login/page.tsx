@@ -124,11 +124,11 @@ export default function LoginPage() {
         toast('Only Google Login Work!', {
             icon: '🤓',
         });
-        if(!googleButton.current) return ;
-        googleButton.current.style.background = 'black';
-        setTimeout(() => {
-            googleButton.current.style.background = 'white';
-        }, 1000);
+        // if(!googleButton.current) return ;
+        // googleButton.current.style.background = 'black';
+        // setTimeout(() => {
+        //     googleButton.current.style.background = 'white';
+        // }, 1000);
     }
     return (
         <div className='flex bg-primary  text-black px-40 pb-9 md:flex-col md:px-0 '>
