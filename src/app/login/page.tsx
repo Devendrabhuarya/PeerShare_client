@@ -124,9 +124,9 @@ export default function LoginPage() {
         toast('Only Google Login Work!', {
             icon: '🤓',
         });
-        googleButton.current.style.background = 'black';
+        googleButton.current?.style.background = 'black';
         setTimeout(() => {
-            googleButton.current.style.background = 'white';
+            googleButton.current?.style.background = 'white';
         }, 1000);
     }
     return (
